@@ -91,12 +91,12 @@ body {
 
 /* CARD BUTTON */
 .card button {
-    /* margin-top: 5rem; */
     width: 14rem;
     height: 4.5rem;
     border: none;
     border-radius: 5rem;
     font-size: 1.5rem;
+    font-weight: bold;
     background-color: var(--VeryLightGray);
     mix-blend-mode: screen;
 }
