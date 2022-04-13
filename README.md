@@ -4,14 +4,16 @@ This is a solution provided for **Walker Alfaro Trelles** to the [3-column previ
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+- [Frontend Mentor - 3-column preview card component solution](#frontend-mentor---3-column-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
 ## Overview
 
@@ -24,14 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![button_pressed](https://github.com/WalkerAlfaro/3-column-preview-card-component-main/blob/main/screenshots/button.png)
 
+![landing](https://github.com/WalkerAlfaro/3-column-preview-card-component-main/blob/main/screenshots/land.png)
 
+![mobile](https://github.com/WalkerAlfaro/3-column-preview-card-component-main/blob/main/screenshots/mobile.png)
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/WalkerAlfaro/3-column-preview-card-component-main)
+- [Live Site URL](https://walkeralfaro.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
