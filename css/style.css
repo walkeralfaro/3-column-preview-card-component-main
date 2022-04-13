@@ -1,0 +1,140 @@
+:root {
+  --BrightOrange: hsl(31, 77%, 52%);
+  --DarkCyan: hsl(184, 100%, 22%);
+  --VeryDarkCyan: hsl(179, 100%, 13%);
+  /* NEUTRAL PARAGRAPHS */
+  --TransparentWhite: hsla(0, 0%, 100%, 0.75);
+  /* NEUTRAL BACKGROUND, HEADINGS, BUTTONS */
+  --VeryLightGray: hsl(0, 0%, 95%);
+  /* FONTS */
+  --FontText: 'Lexend Deca', sans-serif;
+  --FontTitle: 'Big Shoulders Display', cursive;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* Permite que un REM sea equivalente a 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: var(--VeryLightGray);
+    font-family: var(--FontText);
+    position: relative;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5rem 2rem;
+    min-height: 47rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+/* CARDS */
+
+.card {
+    padding: 4.5rem;
+    min-height: 40rem;
+    max-height: 47rem;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* CARD MODIFIERS */
+.card--sedan {
+    background-color: var(--BrightOrange);
+}
+.card--suv {
+    background-color: var(--DarkCyan);
+}
+.card--luxury {
+    background-color: var(--VeryDarkCyan);
+}
+
+/* CARD TITLE */
+.card__title {
+    font-family: var(--FontTitle);
+    font-size: 4rem;
+    color: var(--VeryLightGray);
+    margin: 0;
+}
+
+/* CARD TEXT */
+.card__text {
+    color: var(--TransparentWhite);
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+/* CARD BUTTON */
+.card button {
+    /* margin-top: 5rem; */
+    width: 14rem;
+    height: 4.5rem;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    background-color: var(--VeryLightGray);
+    mix-blend-mode: screen;
+}
+
+.card button:hover {
+    mix-blend-mode:normal;
+    border: solid 2px var(--VeryLightGray);
+    background-color: transparent;
+    color: var(--VeryLightGray);
+    cursor: pointer;
+}
+
+/* ATTRIBUTION */
+.attribution {
+    position: absolute;
+    top: 98%;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--DarkCyan);
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 620px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
